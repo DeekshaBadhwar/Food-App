@@ -1,9 +1,20 @@
 import React from 'react';
+import Drop from './dropdown';
 
 export default function home() {
   return (
     <div>
-      <h1>Welcome to Food Delivery!!!!!!</h1>
+      <header className="row block center">
+      <div>
+        <a href="#/">
+          <h1>Food App                </h1>
+        </a>
+      </div>
+      <div>
+        <a href="#/cart">Cart </a> 
+      </div>
+    </header>
+      <Drop/>
     
     </div>
   )

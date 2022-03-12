@@ -1,18 +1,15 @@
 import React from 'react';
-import Drop from './dropdown';
+import Drop from './Drop';
 
-export default function home() {
+export default function Home() {
   return (
     <div>
       <header className="row block center">
       <div>
-        <a href="#/">
+       
           <h1>Food App                </h1>
-        </a>
       </div>
-      <div>
-        <a href="#/cart">Cart </a> 
-      </div>
+     
     </header>
       <Drop/>
     
